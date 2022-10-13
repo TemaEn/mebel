@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/iconsfonts.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+	<link href="../nouislider/dist/nouislider.css" rel="stylesheet">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__content container">
+				<nav class="header__menu menu">
+					<div class="menu__icon">
+						<span></span>
+					</div>
+					<a href="#" class="menu__link menu__link_mob">Изделия</a>
+					<ul class="menu__list">
+						<li>
+							<a href="#" class="menu__link">Изделия</a>
+						</li>
+						<li>
+							<a href="#" class="menu__link">Услуги</a>
+						</li>
+						<li>
+							<a href="#" class="menu__link">Скидки</a>
+						</li>
+						<li>
+							<a href="#" class="menu__link">Акции</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="#" class="header__logo">
+					<img src="../img/header/logo.png" alt="logo">
+				</a>
+				<div class="header__right">
+					<div class="header__search-wrapper">
+						<div class="header__search-mob _icon-search"></div>
+						<div class="header__search" data-da=".menu__list, 425, last">
+							<form action="#">
+								<input type="text" name="search" placeholder="Найти">
+								<button type="submit" class="_icon-search"></button>
+							</form>
+						</div>
+					</div>
+					<a href="tel:88002004456" data-da=".menu__list, 768, last" class="header__number">
+						8-800-200-44-56
+					</a>
+					<a href="tel:88002004456" class="header__number-mob _icon-phone">
+
+					</a>
+					<div class="header__icons">
+						<a href="#" class="header__account _icon-account"></a>
+						<a href="#" class="header__favorites"></a>
+						<a href="#" class="header__card _icon-bag"><span></span></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="pages">
+				<div class="pages__content container">
+					<a href="#" class="pages__link">Интернет-магазин мебели</a>
+					<span>/</span>
+					<a href="#" class="pages__link pages__link_active">Корзина</a>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card__content container">
+					<div class="card__mini-headline mini-headline">
+						<h2>Корзина</h2>
+					</div>
+					<div class="card__main">
+						<form action="#" class="card__items items">
+							<div class="items__header">
+								<div class="items__checks">
+									<input type="checkbox" id="items-check-all" class="items__input">
+									<label for="items-check-all" class="items__check items__check_all">Выбрать всё</label>
+								</div>
+								<!-- <a href="#" class="items__check items__check_all">Выбрать всё</a> -->
+								<button type="submit" class="items__delete">Удалить</button>
+							</div>
+							<div class="items__product-wrapper">
+								<div class="items__product">
+									<div class="items__checks">
+										<input type="checkbox" id="items-check-1" class="items__input items__input_point">
+										<label for="items-check-1" class="items__check"></label>
+									</div>
+									<a href="#" class="items__image"><img src="../img/card-page/items/item1.jpg"
+											alt="product"></a>
+									<div class="items__content">
+										<div class="items__top">
+											<div class="items__info">
+												<a href="#" class="items__name item__headline">Композиции OSAGO</a>
+												<div class="items__article item__article">Код товара: 7654321</div>
+											</div>
+											<div class="items__materials info__item"
+												data-da=".items__materials-bound_1, 720, last">
+												<span class="items__preheadline info__headline">Исполнение: </span>Корпус - Оливия
+												Кэйсон, Фасад - Стекло / Принт Indytea,
+												Ножки бук
+											</div>
+										</div>
+										<div class="items__bottom">
+											<div class="items__bottom-left">
+												<a href="#" class="items__options btn"><span>Добавить</span> опции</a>
+											</div>
+											<div class="items__bottom-right">
+												<div class="items__counter" data-da=".items__bottom-left, 720, last">
+													<a href="#" class="items__action items__action_minus">—</a>
+													<div class="items__output">997</div>
+													<a href="#" class="items__action items__action_plus">+</a>
+												</div>
+												<div class="items__price item__price"><span>4 333 555</span><span
+														class="ruble">&#8381;</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items__materials-bound items__materials-bound_1"></div>
+							</div>
+							<div class="items__product-wrapper">
+								<div class="items__product">
+									<div class="items__checks">
+										<input type="checkbox" id="items-check-2" class="items__input items__input_point">
+										<label for="items-check-2" class="items__check"></label>
+									</div>
+									<a href="#" class="items__image"><img src="../img/card-page/items/item2.jpg"
+											alt="product"></a>
+									<div class="items__content">
+										<div class="items__top">
+											<div class="items__info">
+												<a href="#" class="items__name item__headline">Композиции OSAGO</a>
+												<div class="items__article item__article">Код товара: 7654321</div>
+											</div>
+											<div class="items__materials info__item"
+												data-da=".items__materials-bound_2, 720, last">
+												<span class="items__preheadline info__headline">Исполнение: </span>Корпус - Оливия
+												Кэйсон, Фасад - Стекло / Принт Indytea,
+												Ножки бук
+											</div>
+										</div>
+										<div class="items__bottom">
+											<div class="items__bottom-left items__bottom-left_2">
+												<a href="#" class="items__options btn"><span>Добавить</span> опции</a>
+											</div>
+											<div class="items__bottom-right">
+												<div class="items__counter" data-da=".items__bottom-left_2, 720, last">
+													<a href="#" class="items__action items__action_minus">—</a>
+													<div class="items__output">2</div>
+													<a href="#" class="items__action items__action_plus">+</a>
+												</div>
+												<div class="items__price item__price"><span>655</span><span
+														class="ruble">&#8381;</span></div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="items__materials-bound items__materials-bound_2"></div>
+							</div>
+						</form>
+						<div class="card__buy buy">
+							<div class="buy__wrapper">
+								<form action="#" class="buy__promo">
+									<div class="buy__input">
+										<input type="text" placeholder="Промокод" name="promo">
+										<button type="submit">+</button>
+									</div>
+									<div class="buy__output">
+										<div class="buy__headline info__headline">Промо 1</div>
+										<div class="buy__line"></div>
+										<a href="#" class="buy__cancel">Отменить</a>
+									</div>
+								</form>
+								<div class="buy__card">
+									<div class="buy__headline info__headline">Ваша корзина</div>
+									<div class="buy__item">
+										<span class="buy__naming">Товар (1)</span>
+										<div class="buy__line buy__line_mid"></div>
+										<span class="buy__price buy__price_product">4 334 210 <span
+												class="ruble-card">&#8381;</span></span>
+									</div>
+									<div class="buy__item">
+										<span class="buy__naming">Скидка</span>
+										<div class="buy__line buy__line_mid"></div>
+										<span class="buy__price buy__price_sale">- 33 555 <span
+												class="ruble-card ruble-card_red">&#8381;</span></span>
+									</div>
+								</div>
+							</div>
+							<div class="buy__wrapper">
+								<div class="buy__cost">
+									<div class="buy__cost-main">
+										<div class="buy__headline info__headline">Общая <br>
+											стоимость</div>
+										<div class="buy__line buy__line_mid"></div>
+										<span class="buy__price buy__price_cost">4 334 210 <span
+												class="ruble-card ruble-card_bold">&#8381;</span></span>
+									</div>
+									<span>Без учета стоимости доставки</span>
+								</div>
+								<div class="buy__button">
+									<a href="#" data-goto=".order" class="buy__btn btn link-go">Перейти к оформлению</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="order">
+				<div class="order__content container">
+					<div class="order__mini-headline mini-headline">
+						<h2>Оформление заказа</h2>
+					</div>
+					<form action="#">
+						<div class="order__block">
+							<input type="text" placeholder="Имя" class="order__first-name">
+							<input type="text" placeholder="Фамилия" class="order__last-name">
+							<div class="order__block-wrapper">
+								<input type="mail" placeholder="Email" class="order__mail">
+								<input type="phone" placeholder="+7 (___)-___-__-__" class="order__phone">
+							</div>
+						</div>
+						<div class="order__block">
+							<label class="order__name info__headline">Способ доставки</label>
+							<div class="order__check-wrapper">
+								<div class="order__check-item">
+									<input type="radio" name="delivery" class="order__check" id="order-yourslef" checked>
+									<label for="order-yourslef" class="order__check-label">Самовывоз</label>
+
+								</div>
+								<div class="order__check-item">
+									<input type="radio" name="delivery" class="order__check" id="order-delivery">
+									<label for="order-delivery" class="order__check-label">Доставка</label>
+
+								</div>
+							</div>
+						</div>
+						<div class="order__block order__block_center">
+							<label class="order__name info__headline">Адрес доставки</label>
+							<div class="order__city">
+								<div class="order__city-arrow"></div>
+								<input type="text" placeholder="Город" class="order__town">
+								<div class="order__city-dropdown">
+									<div class="order__city-item" data-city="Москва">Москва</div>
+									<div class="order__city-item" data-city="Санкт-Петербург">Санкт-Петербург</div>
+								</div>
+							</div>
+							<input type="text" placeholder="Улица" class="order__street">
+							<div class="order__block-wrapper">
+								<input type="text" placeholder="Дом" class="order__house">
+								<input type="text" placeholder="Этаж" class="order__floor">
+								<input type="text" placeholder="Кв." class="order__flat">
+							</div>
+						</div>
+						<div class="order__block order__block_select">
+							<label class="order__name info__headline">Способ оплаты</label>
+							<div class="order__select select" id="select-1">
+								<button type="button" class="select__toggle" data-select="toggle">Онлайн оплата</button>
+								<div class="select__dropdown">
+									<ul class="select__options">
+										<li class="select__option select__option_selected" data-select="option" data-tab="1">
+											Онлайн оплата
+										</li>
+										<li class="select__option" data-select="option">Наличными на пункте самовывоза</li>
+										<li class="select__option" data-select="option">Оплата картой на пункте самовывоза
+										</li>
+										<li class="select__option" data-select="option">Оплата картой через службу доставки
+										</li>
+										<li class="select__option" data-select="option">Оплата наличными курьеру</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="order__block">
+							<label class="order__name info__headline">Комментарий к заказу</label>
+							<textarea placeholder="Текст комментария"></textarea>
+						</div>
+						<div class="order__block order__block_agree">
+							<input type="checkbox" id="order-agree" class="order__agree">
+							<label for="order-agree" class="order__check-label">
+								<div>Даю согласие на обработку персональных
+									данных<span>*</span></div>
+							</label>
+						</div>
+						<div class="order__btn-wrapper">
+							<button type="submit" class="order__btn btn">Оформить заказ</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</main>
+		<div class="footer">
+			<div class="footer__content container">
+				<div class="footer__top">
+					<nav class="footer__nav">
+						<div class="footer__list-wrapper">
+							<ul class="footer__list">
+								<li class="footer__li-headline">Товары</li>
+								<li>
+									<a href="#" class="footer__link">Каталог 2022</a>
+								</li>
+								<li>
+									<a href="#" class="footer__link">Акции</a>
+								</li>
+								<li>
+									<a href="#" class="footer__link">Подарочные карты</a>
+								</li>
+								<li>
+									<a href="#" class="footer__link">Бонусная программа</a>
+								</li>
+							</ul>
+							<ul class="footer__list">
+								<li class="footer__li-headline">Услуги</li>
+								<li>
+									<a href="#" class="footer__link">Доставка</a>
+								</li>
+								<li>
+									<a href="#" class="footer__link">Сборка мебели</a>
+								</li>
+								<li>
+									<a href="#" class="footer__link">Мебель в кредит</a>
+								</li>
+							</ul>
+						</div>
+						<ul class="footer__list footer__list_half">
+							<li class="footer__li-headline">Информация</li>
+							<li></li>
+							<li>
+								<a href="#" class="footer__link">Как купить</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Наши магазины</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Оплата</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">События</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Гарантия возврата</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Сотрудничество</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Договор-оферта</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Дизайнеры</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Персональные данные</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">Контакты</a>
+							</li>
+							<li>
+								<a href="#" class="footer__link">О компании</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer__contacts">
+						<div class="footer__regime">
+							<span>Время работы</span>
+							<span>08:00 — 20:00</span>
+						</div>
+						<div class="footer__phones">
+							<a href="tel:89123456789">8-912-345-67-89</a>
+							<a href="tel:89091234567">8-909-123-45-67</a>
+						</div>
+						<div class="footer__socials">
+							<a href="#" class="_icon-vk"></a>
+							<a href="#" class="_icon-wa"></a>
+							<a href="#" class="_icon-tg"></a>
+							<a href="#" class="_icon-viber"></a>
+						</div>
+						<div class="footer__mail">
+							<a href="mailto:info@petrovsky.ru">info@petrovsky.ru</a>
+						</div>
+						<div class="footer__pays">
+							<div class="footer__pay-item"></div>
+							<div class="footer__pay-item"></div>
+							<div class="footer__pay-item"></div>
+							<div class="footer__pay-item"></div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					© Мастерская мебели «Петровская», 2022
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="https://unpkg.com/imask"></script>
+	<script src="../nouislider/dist/nouislider.js"></script>
+	<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+	<script src="../js/swiper.js"></script>
+	<script src="../js/select.js"></script>
+	<script src="../js/script.js"></script>
+</body>
+
+</html>
